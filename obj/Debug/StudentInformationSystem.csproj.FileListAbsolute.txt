@@ -1,0 +1,9 @@
+G:\C# tutorial\Target\Project\StudentInformationSystem\bin\Debug\StudentInformationSystem.exe.config
+G:\C# tutorial\Target\Project\StudentInformationSystem\bin\Debug\StudentInformationSystem.exe
+G:\C# tutorial\Target\Project\StudentInformationSystem\bin\Debug\StudentInformationSystem.pdb
+G:\C# tutorial\Target\Project\StudentInformationSystem\obj\Debug\StudentInformationSystem.csprojResolveAssemblyReference.cache
+G:\C# tutorial\Target\Project\StudentInformationSystem\obj\Debug\StudentInformationSystem.studentInformationSystem.resources
+G:\C# tutorial\Target\Project\StudentInformationSystem\obj\Debug\StudentInformationSystem.Properties.Resources.resources
+G:\C# tutorial\Target\Project\StudentInformationSystem\obj\Debug\StudentInformationSystem.csproj.GenerateResource.Cache
+G:\C# tutorial\Target\Project\StudentInformationSystem\obj\Debug\StudentInformationSystem.exe
+G:\C# tutorial\Target\Project\StudentInformationSystem\obj\Debug\StudentInformationSystem.pdb
