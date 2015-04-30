@@ -77,6 +77,7 @@
             this.showButton.TabIndex = 8;
             this.showButton.Text = "Show";
             this.showButton.UseVisualStyleBackColor = false;
+            this.showButton.Click += new System.EventHandler(this.showButton_Click);
             this.showButton.MouseEnter += new System.EventHandler(this.showButton_MouseEnter);
             this.showButton.MouseLeave += new System.EventHandler(this.showButton_MouseLeave);
             this.showButton.MouseHover += new System.EventHandler(this.showButton_MouseEnter);

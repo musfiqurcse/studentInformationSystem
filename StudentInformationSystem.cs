@@ -13,6 +13,8 @@ namespace StudentInformationSystem
 {
     public partial class studentInformationSystem : Form
     {
+        string connectionPath =
+                       @"server=.\sqlexpress; database=StudentInformationSystem;integrated security=SSPI";
         public studentInformationSystem()
         {
             InitializeComponent();
@@ -47,8 +49,7 @@ namespace StudentInformationSystem
                 }
                 else
                 {
-                    string connectionPath =
-                        @"server=.\sqlexpress; database=StudentInformationSystem;integrated security=SSPI";
+                   
 
                     SqlConnection studentInformationSystemDatabaseConnection = new SqlConnection(connectionPath);
                     studentInformationSystemDatabaseConnection.Open();
@@ -83,6 +84,15 @@ namespace StudentInformationSystem
             {
                 MessageBox.Show(string.Format("An error occurred: {0}", ex.Message));
             }
+        }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+            SqlConnection studentInformationSystemDatabaseConnection = new SqlConnection(connectionPath);
+            studentInformationSystemDatabaseConnection.Open();
+
+            studentInformationSystemDatabaseConnection.Close();
+            
         }
 
        
