@@ -88,8 +88,18 @@ namespace StudentInformationSystem
 
         private void showButton_Click(object sender, EventArgs e)
         {
+            studentInformationDataGridView.Rows.Clear();
+         
             SqlConnection studentInformationSystemDatabaseConnection = new SqlConnection(connectionPath);
+            string query = "SELECT * FROM studentInformationTable";
+            SqlCommand cmd = new SqlCommand(query,studentInformationSystemDatabaseConnection);
             studentInformationSystemDatabaseConnection.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                studentInformationDataGridView.Rows.Add(reader[0].ToString(), reader[1].ToString(), reader[2].ToString(),
+                    reader[3].ToString(), reader[4].ToString(), reader[5].ToString(), reader[6].ToString());
+            }
 
             studentInformationSystemDatabaseConnection.Close();
             

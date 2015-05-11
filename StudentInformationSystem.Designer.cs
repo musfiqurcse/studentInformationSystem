@@ -44,7 +44,7 @@
             this.instituteNameTextBox = new System.Windows.Forms.TextBox();
             this.sscResultTextBox = new System.Windows.Forms.TextBox();
             this.sessionTextBox = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.studentInformationDataGridView = new System.Windows.Forms.DataGridView();
             this.studentRollNoData = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.studentNameData = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fatherNameData = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,7 +52,7 @@
             this.instituteNameData = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sscResultData = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sessionData = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentInformationDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // saveButton
@@ -208,10 +208,10 @@
             this.sessionTextBox.Size = new System.Drawing.Size(100, 20);
             this.sessionTextBox.TabIndex = 6;
             // 
-            // dataGridView1
+            // studentInformationDataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.studentInformationDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.studentInformationDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.studentRollNoData,
             this.studentNameData,
             this.fatherNameData,
@@ -219,10 +219,10 @@
             this.instituteNameData,
             this.sscResultData,
             this.sessionData});
-            this.dataGridView1.Location = new System.Drawing.Point(259, 48);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(746, 314);
-            this.dataGridView1.TabIndex = 9;
+            this.studentInformationDataGridView.Location = new System.Drawing.Point(259, 48);
+            this.studentInformationDataGridView.Name = "studentInformationDataGridView";
+            this.studentInformationDataGridView.Size = new System.Drawing.Size(746, 314);
+            this.studentInformationDataGridView.TabIndex = 9;
             // 
             // studentRollNoData
             // 
@@ -265,7 +265,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1017, 410);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.studentInformationDataGridView);
             this.Controls.Add(this.sessionTextBox);
             this.Controls.Add(this.sscResultTextBox);
             this.Controls.Add(this.instituteNameTextBox);
@@ -286,7 +286,7 @@
             this.MaximizeBox = false;
             this.Name = "studentInformationSystem";
             this.Text = "Student Information System";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentInformationDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -310,7 +310,7 @@
         private System.Windows.Forms.TextBox sscResultTextBox;
         private System.Windows.Forms.TextBox sessionTextBox;
         private System.Windows.Forms.Button saveButton;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView studentInformationDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn studentRollNoData;
         private System.Windows.Forms.DataGridViewTextBoxColumn studentNameData;
         private System.Windows.Forms.DataGridViewTextBoxColumn fatherNameData;
